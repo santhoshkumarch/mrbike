@@ -157,69 +157,6 @@ class _LoginState extends State<Login> {
                       textAlign: TextAlign.center,
                       style: white18MediumTextStyle,
                     ),
-                    SizedBox(height: 30.0),
-                    Padding(
-                      padding: EdgeInsets.all(20.0),
-                      child: InkWell(
-                        borderRadius: BorderRadius.circular(30.0),
-                        onTap: () {},
-                        child: Container(
-                          padding: EdgeInsets.all(15.0),
-                          alignment: Alignment.center,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(30.0),
-                            color: Color(0xFF3B5998),
-                          ),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: <Widget>[
-                              Image.asset(
-                                'assets/facebook.png',
-                                height: 25.0,
-                                fit: BoxFit.fitHeight,
-                              ),
-                              SizedBox(width: 10.0),
-                              Text(
-                                'Log in with Facebook',
-                                style: white14MediumTextStyle,
-                              ),
-                            ],
-                          ),
-                        ),
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.all(20.0),
-                      child: InkWell(
-                        borderRadius: BorderRadius.circular(30.0),
-                        onTap: () {},
-                        child: Container(
-                          padding: EdgeInsets.all(15.0),
-                          alignment: Alignment.center,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(30.0),
-                            color: Colors.white,
-                          ),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: <Widget>[
-                              Image.asset(
-                                'assets/google.png',
-                                height: 25.0,
-                                fit: BoxFit.fitHeight,
-                              ),
-                              SizedBox(width: 10.0),
-                              Text(
-                                'Log in with Google',
-                                style: black14MediumTextStyle,
-                              ),
-                            ],
-                          ),
-                        ),
-                      ),
-                    ),
                   ],
                 ),
               ),
